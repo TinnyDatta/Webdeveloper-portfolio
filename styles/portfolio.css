@@ -1,56 +1,106 @@
-
 /* common shared style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-color: white;
-font-size: 20px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-top: 30px;
+}
+.section-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
 font-weight: 700;
-padding: 15px 35px;
+}
+.section-description{
+    color:#757575;
+text-align: center;
+font-size: 18px
 }
 
 /* nav related styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: var(--Dark-01, #181818);
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     color: var(--Dark-02, #474747);
     text-decoration: none;
 }
+
 /* header relatrd style */
-.header{
-    background-color:#FFF8F3;
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color:  #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main related styles */
+
+/* about styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+background: #FFF8F3;
+margin: 130px 0px;
 }
